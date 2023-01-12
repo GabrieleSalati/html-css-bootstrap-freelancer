@@ -1,0 +1,13 @@
+/* HEADER STYLE */
+
+.headcol-left {
+    height: 10vh;
+    background-color: black;
+    border: 2px dashed white;
+}
+
+.headcol-right {
+    height: 10vh;
+    background-color: black;
+    border: 2px dashed white;
+}
