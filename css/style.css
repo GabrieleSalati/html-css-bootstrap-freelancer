@@ -1,15 +1,21 @@
 /* HEADER STYLE */
 
+header {
+    background-color: #2C3E50;
+
+    height: 100px;
+}
+
 .headcol-left {
     height: 100px;
-    background-color: black;
-    border: 2px dashed white;
+    background-color: azure;
+    border: 2px dashed black;
 }
 
 .headcol-right {
     height: 100px;
-    background-color: black;
-    border: 2px dashed white;
+    background-color: azure;
+    border: 2px dashed black;
 }
 
 /* MAIN STYLE */
@@ -17,71 +23,31 @@
 /* JUMBO */
 
 .jumbotron {
-    height: 400px;
-    background-color: aquamarine;
+    background-color: #1ABC9C;
+
+    height: 500px;
 }
 
 /* PORTFOLIO */
 
-.portfolio {
-    height: 400px;
-}
-
 .card {
-    height: 100px;
-    background-color: cadetblue;
+    background-color: black;
+    border: 2px dashed gold;
+    height: 200px;
 }
 
 /* ABOUT */
 
-.about {
-    height: 300px;
-    background-color: aquamarine;
-}
-
-.aboutcol-left {
-    height: 100px;
-    background-color: teal;
-    border: 2px dashed black;
-}
-
-.aboutcol-right {
-    height: 100px;
-    background-color: teal;
-    border: 2px dashed black;
-}
 
 /* CONTACTS */
 
-.contacts {
-    height: 600px;
-}
+
 
 /* FOOTER STYLE */
 
-.footcol-left {
-    height: 200px;
-    background-color: darkgrey;
-    border: 2px dashed white;
-}
 
-.footcol-mid {
-    height: 200px;
-    background-color: darkgrey;
-    border: 2px dashed white;
-}
-
-.footcol-right {
-    height: 200px;
-    background-color: darkgrey;
-    border: 2px dashed white;
-}
 
 /* FOOTER END */
 
-.footer-end {
-    background-color: blue;
-    height: 150px;
-}
 
 
