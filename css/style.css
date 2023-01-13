@@ -30,6 +30,10 @@ header {
 
 /* PORTFOLIO */
 
+.portfolio {
+    height: 600px;
+}
+
 .card {
     background-color: black;
     border: 2px dashed gold;
@@ -38,16 +42,61 @@ header {
 
 /* ABOUT */
 
+.about {
+    background-color: #1ABC9C;
+
+    height: 400px;
+}
+
+.aboutcol-left {
+    background-color: bisque;
+    border: 2px dashed black;
+    height: 150px;
+}
+
+.aboutcol-right {
+    background-color: bisque;
+    border: 2px dashed black;
+    height: 150px;
+}
 
 /* CONTACTS */
 
-
+.contacts {
+    height: 400px;
+}
 
 /* FOOTER STYLE */
 
+.info {
+    background-color: #3A546D;
+    height: 200px;
+}
+
+.copyright {
+    background-color: #2C3E50;
+    height: 100px;
+}
+
+.botcol-left {
+    background-color: chartreuse;
+    border: 2px dashed black;
+    height: 100px;
+}
+
+.botcol-mid {
+    background-color: chartreuse;
+    border: 2px dashed black;
+    height: 100px;
+}
+
+.botcol-right {
+    background-color: chartreuse;
+    border: 2px dashed black;
+    height: 100px;
+}
 
 
-/* FOOTER END */
 
 
 
