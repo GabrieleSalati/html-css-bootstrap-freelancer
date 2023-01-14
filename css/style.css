@@ -10,6 +10,7 @@ h1 {
 
 h3 {
     color: white;
+    padding: 1rem 0;
 }
 
 .bright-title {
@@ -136,11 +137,35 @@ p {
 /* CONTACTS */
 
 .contacts {
-    height: 400px;
+    padding: 2rem 0;
 }
 
 .contactme {
     text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+.data {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+hr {
+    margin-top: 10rem;
+}
+
+.send {
+    color: white;
+    background-color: #1ABC9C;
+    border: 0px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
 }
 
 /* FOOTER STYLE */
