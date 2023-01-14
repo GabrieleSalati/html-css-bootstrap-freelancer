@@ -28,7 +28,7 @@ p {
 
 .line {
     height: 2px;
-    width: 100px;
+    width: 200px;
     background-color: white;
     display: inline-block;
     vertical-align: middle;
@@ -37,17 +37,25 @@ p {
 
 .line-dark {
     height: 2px;
-    width: 100px;
+    width: 200px;
     background-color: black;
     display: inline-block;
     vertical-align: middle;
     margin: 0 1rem;
 }
 
-.fa-star {
+.bright-star {
     color: white;
     vertical-align: middle;
     font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.dark-star {
+    color: black;
+    vertical-align: middle;
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
 /* HEADER STYLE */
@@ -78,11 +86,15 @@ p {
 /* PORTFOLIO */
 
 .portfolio {
-    min-height: 800px;
+    padding: 2rem 0;
 }
 
 .port {
     text-align: center;
+}
+
+.card { 
+    border: 0px;
 }
 
 /* ABOUT */
