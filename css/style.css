@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    color: white;
+}
+
 h3 {
     color: white;
 }
@@ -17,18 +21,33 @@ a {
     text-decoration: none;
 }
 
+p {
+    padding: 1rem 0;
+    color: white;
+}
+
 .line {
     height: 2px;
-    width: 50px;
+    width: 100px;
     background-color: white;
     display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
 }
 
 .line-dark {
     height: 2px;
-    width: 50px;
+    width: 100px;
     background-color: black;
     display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+
+.fa-star {
+    color: white;
+    vertical-align: middle;
+    font-size: 2rem;
 }
 
 /* HEADER STYLE */
@@ -42,14 +61,14 @@ a {
 /* JUMBO */
 
 .avatar {
-    width: 12rem;
-    height: 12rem;
+    width: 13rem;
+    height: 13rem;
+    padding: 1rem 0;
 }
 
 .jumbotron {
     background-color: #1ABC9C;
-
-    height: 500px;
+    padding: 2rem 0;
 }
 
 .jumbo {
