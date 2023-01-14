@@ -172,25 +172,33 @@ hr {
 
 .info {
     background-color: #3A546D;
-    min-height: 200px;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .copyright {
     background-color: #2C3E50;
-    height: 100px;
+    text-align: center;
 }
 
-.botcol-left {
-    
+.bot-icon {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
 }
 
-.botcol-mid {
-    
+.border {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
 }
 
-.botcol-right {
-   
+#start {
+    color: #1ABC9C;
 }
+
 
 
 
